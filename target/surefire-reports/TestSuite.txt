@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 9, Time elapsed: 3.728 sec <<< FAILURE!
+setUp(com.qa.hubspot.tests.HomePageTest)  Time elapsed: 3.574 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.hubspot.util.ElementUtil.waitForElementPresent(ElementUtil.java:51)
+	at com.qa.hutspot.page.LoginPage.doLogin(LoginPage.java:43)
+	at com.qa.hubspot.tests.HomePageTest.setUp(HomePageTest.java:37)
+

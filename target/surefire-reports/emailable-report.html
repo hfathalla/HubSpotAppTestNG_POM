@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Command line suite</th></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">0</td><td class="num attn">6</td><td class="num">0</td><td class="num">0</td><td class="num">3,346</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.qa.hubspot.tests.HomePageTest</td><td><a href="#m0">setUp</a></td><td rowspan="1">1595362536161</td><td rowspan="1">3312</td></tr><tr><th colspan="4">Command line test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.qa.hubspot.tests.HomePageTest</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1595362539503</td><td rowspan="1">-1595362539503</td></tr><tr class="skippedodd"><td rowspan="2">com.qa.hubspot.tests.LoginPageTest</td><td><a href="#m2">setUp</a></td><td rowspan="1">1595362539476</td><td rowspan="1">-1595362539476</td></tr><tr class="skippedodd"><td><a href="#m3">tearDown</a></td><td rowspan="1">1595362539503</td><td rowspan="1">-1595362539503</td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">com.qa.hubspot.tests.HomePageTest</td><td><a href="#m4">verifyHomPageHeaderTest</a></td><td rowspan="1">1595362539500</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m5">verifyHomePageTitleTest</a></td><td rowspan="1">1595362539497</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m6">verifyLoggedInUserTest</a></td><td rowspan="1">1595362539500</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="3">com.qa.hubspot.tests.LoginPageTest</td><td><a href="#m7">loginTest</a></td><td rowspan="1">1595362539502</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m8">verifyPageTitleTest</a></td><td rowspan="1">1595362539501</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m9">verifySignUpLinkTest</a></td><td rowspan="1">1595362539502</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>Command line test</h2><h3 id="m0">com.qa.hubspot.tests.HomePageTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.qa.hubspot.util.ElementUtil.waitForElementPresent(ElementUtil.java:51)
+	at com.qa.hutspot.page.LoginPage.doLogin(LoginPage.java:43)
+	at com.qa.hubspot.tests.HomePageTest.setUp(HomePageTest.java:37)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.hubspot.tests.HomePageTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.hubspot.tests.LoginPageTest#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.qa.hubspot.tests.LoginPageTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.qa.hubspot.tests.HomePageTest#verifyHomPageHeaderTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.qa.hubspot.util.ElementUtil.waitForElementPresent(ElementUtil.java:51)
+	at com.qa.hutspot.page.LoginPage.doLogin(LoginPage.java:43)
+	at com.qa.hubspot.tests.HomePageTest.setUp(HomePageTest.java:37)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.qa.hubspot.tests.HomePageTest#verifyHomePageTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.qa.hubspot.util.ElementUtil.waitForElementPresent(ElementUtil.java:51)
+	at com.qa.hutspot.page.LoginPage.doLogin(LoginPage.java:43)
+	at com.qa.hubspot.tests.HomePageTest.setUp(HomePageTest.java:37)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.qa.hubspot.tests.HomePageTest#verifyLoggedInUserTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.qa.hubspot.util.ElementUtil.waitForElementPresent(ElementUtil.java:51)
+	at com.qa.hutspot.page.LoginPage.doLogin(LoginPage.java:43)
+	at com.qa.hubspot.tests.HomePageTest.setUp(HomePageTest.java:37)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.qa.hubspot.tests.LoginPageTest#loginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.qa.hubspot.util.ElementUtil.waitForElementPresent(ElementUtil.java:51)
+	at com.qa.hutspot.page.LoginPage.doLogin(LoginPage.java:43)
+	at com.qa.hubspot.tests.HomePageTest.setUp(HomePageTest.java:37)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.qa.hubspot.tests.LoginPageTest#verifyPageTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.qa.hubspot.util.ElementUtil.waitForElementPresent(ElementUtil.java:51)
+	at com.qa.hutspot.page.LoginPage.doLogin(LoginPage.java:43)
+	at com.qa.hubspot.tests.HomePageTest.setUp(HomePageTest.java:37)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.qa.hubspot.tests.LoginPageTest#verifySignUpLinkTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.qa.hubspot.util.ElementUtil.waitForElementPresent(ElementUtil.java:51)
+	at com.qa.hutspot.page.LoginPage.doLogin(LoginPage.java:43)
+	at com.qa.hubspot.tests.HomePageTest.setUp(HomePageTest.java:37)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
